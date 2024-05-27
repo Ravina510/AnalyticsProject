@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  color: #1b2631;
+  background-color: lightgray;
+}
+
+
+
+.header,
+.footer {
+  display: flex;
+  /* // background-color: #E5E7E9; */
+  /* padding: 20px; */
+  -webkit-box-shadow: 2px 4px 10px 1px rgb(0, 0, 0, 0.47);
+  box-shadow: 4px 4px 10px 1px rgb(201, 201, 201, 0.47);
+  /* border-radius: 10px; */
+  height: 50px; 
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.drawer {
+  background: #1b2631;
+  width: 240px;
+}
+
+.main {
+  flex: 1;
+  width: "100%";
+  background: lightgray;
+}
+.icon {
+  padding: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.header-title {
+  width: 300px;
+  margin: auto;
+}
+.drawer {
+  /* // background: #d8dcd6; */
+  width: 0px;
+  transition: width 0.7s;
+}
+
+.opened {
+  width: 240px;
+}

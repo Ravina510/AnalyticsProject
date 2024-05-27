@@ -1,0 +1,182 @@
+.main {
+  padding: 10px;
+  // background: rgba(255, 255, 255, 0.904);
+  h3 {
+    text-transform: uppercase;
+  }
+  .column {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+  }
+  .table {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+
+    // for background color dark
+    .custom-header-row .ant-table-thead > tr > th {
+      background-color: #4ea7e2;
+    }
+
+    .even-row {
+      background-color: #ffffff;
+    }
+
+    .odd-row {
+      background-color: #e2e2e2;
+    }
+  }
+
+  .table-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .square {
+    width: 170px;
+    height: 110px;
+    // padding-top: 40px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    // margin-top: 30px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 1rem;
+  }
+  .box {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+      0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+      0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+  }
+}
+// .widges {
+//   color: "red";
+// }
+.widget {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: "30px";
+  font-weight: "bold";
+  color: "#284b63";
+  justify-content: "center";
+  margin: "1rem";
+}
+.flex-parent-element {
+  display: flex;
+  flex: 1;
+  width: 70%;
+  // background-color: black;
+}
+
+// .flex-child-element {
+//   flex: 1;
+//   // border: 2px solid blueviolet;
+//   // margin: 10px;
+// }
+
+.flex-child-element:first-child {
+  margin-left: 20rem;
+}
+
+/* src/components/Dropdown.css */
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-btn {
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  // position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  z-index: 1;
+  width: 150px;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ddd;
+}
+
+//Change colour of Filter icon
+.ant-table-filter-trigger-icon {
+  color: black;
+}
+
+//Change colour of Sorting icon
+.ant-table-sort-default,
+.ant-table-column-sorter-up,
+.ant-table-column-sorter-down {
+  color: black;
+}
+
+//Change colour of icon
+.anticon {
+  color: black;
+}
+
+// /* Add CSS for the filter dropdown */
+
+/* Style the filter dropdown as a vertical column */
+.filter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+/* Style filter buttons */
+.filter-content Button {
+  margin: 8px;
+}
+
+//new grid matierial -react column heading colour
+.css-18j6sho-MuiTableCell-root {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.01071em;
+  text-align: left;
+  color: red;
+  font-weight: 700;
+  background-color: yellow;
+}

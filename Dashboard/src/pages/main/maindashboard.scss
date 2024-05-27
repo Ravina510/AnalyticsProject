@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  // color: #000133;
+}
+.header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  // width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+
+.header,
+.footer {
+  display: flex;
+  // box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+  //   rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  // box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+  //   rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  // -webkit-box-shadow: 2px 4px 10px 1px rgb(0, 0, 0, 0.47);
+
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.drawer {
+  background: #17202a;
+  width: 240px;
+}
+
+.main {
+  flex: 1;
+  width: "100%";
+  background: #f7f5f5;
+}
+.icon {
+  padding: 10px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.header-title {
+  width: 300px;
+  margin: auto;
+}
+.drawer {
+  // background: #d8dcd6;
+  width: 0px;
+  transition: width 0.7s;
+}
+
+.opened {
+  width: 240px;
+}

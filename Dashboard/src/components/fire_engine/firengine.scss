@@ -1,0 +1,105 @@
+.main {
+  // padding-top: 1rem;
+  // background: #f7f5f5;
+  padding: 10px;
+  background: #fff;
+  // box-shadow: 4px 4px 10px 6px rgba(0,0,0,0.06);
+
+  .column {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+  }
+  .table {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+
+    // for background color dark
+    .custom-header-row .ant-table-thead > tr > th {
+      background-color: #2980b9;
+      color: #ffffff;
+    }
+
+    .even-row {
+      background-color: #ffffff;
+    }
+
+    .odd-row {
+      background-color: #e2e2e2;
+    }
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -15px;
+  }
+
+  .square {
+    width: 200px;
+    height: 120px;
+    padding-top: 40px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+  }
+  .box {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+      0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+      0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+  }
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .small-box-container {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 5rem;
+  }
+  
+  .small-box {
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);  
+  }
+  .summary{
+    background-color: #2980b9;
+    color: #ffffff;
+  }
+  /* Add this CSS to your SCSS or CSS file */
+.react-tooltip {
+  // background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.react-tooltip.place-top:after {
+  // border-top-color: rgba(0, 0, 0, 0.7) !important;
+}
+.custom-column-header {
+  background-color: red;
+  color: pink;
+}
+
+
+}

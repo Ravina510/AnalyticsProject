@@ -1,0 +1,147 @@
+.main {
+  // padding-top: 1rem;
+  // background: #f7f5f5;
+  padding: 10px;
+  background: #fff;
+  // box-shadow: 4px 4px 10px 6px rgba(0,0,0,0.06);
+
+  .column {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+
+
+    title{
+      font-size: 10px;
+    }
+
+    .ant-plot-x-axis-labels {
+      text-anchor: end;
+      transform: rotate(-45deg);
+      
+    }
+    .rotate-label {
+      transform: rotate(-40deg);
+      transform-origin: left center;
+    }  
+  }
+
+  .singleRow {
+    display: flex;
+    gap: 20px;
+    // width: 100%;
+    padding: 30px;
+    border-style: solid;
+    border-color: gray;
+  }
+
+  .table {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+
+    // for background color dark
+    .custom-header-row .ant-table-thead>tr>th {
+      background-color: #2980b9;
+      color: #ffffff;
+    }
+
+    .even-row {
+      background-color: #ffffff;
+    }
+
+    .odd-row {
+      background-color: #e2e2e2;
+    }
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -15px;
+  }
+
+  .square {
+    width: 200px;
+    height: 120px;
+    padding-top: 40px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+  }
+
+  .box {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+      0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+      0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .small-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .small-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    height: '100px';
+    border-style: 1px solid black // border: '1px solid black',
+      // display: 'flex',
+  }
+
+  .summary {
+    background-color: #2980b9;
+    color: #ffffff;
+  }
+  .rotate-label {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-orientation: mixed;
+  }
+
+  .ant-plot-bar .g2-view-bar rect {
+    fill: rgba(0, 0, 0, 0.1) !important;
+  }
+  /* Styles for the pseudo-3D columns */
+.antv-column .column {
+  position: relative;
+  background: #2196F3; /* Adjust the column color */
+  border: 1px solid #1565C0; /* Adjust the column border color */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+/* Hover effect to raise the column on hover */
+.antv-column .column:hover {
+  transform: translateY(-5px); /* Adjust the raising height */
+}
+
+/* Add this to your SCSS (tfms.scss) or import a separate CSS file */
+
+.column-3d {
+  transform: translateZ(15px); /* Add a 3D translation */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Add smooth transitions */
+}
+
+.column-3d:hover {
+  transform: translateZ(25px); /* Increase the translation on hover for a pop-out effect */
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4); /* Enhance the shadow on hover */
+}
+
+
+}
